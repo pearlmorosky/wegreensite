@@ -1,5 +1,5 @@
 body {
-  background-color: #dce1de;
+  background-color: #f8f9f9;
 }
 body {
   border-style: solid;
@@ -12,89 +12,85 @@ body {
 h1 {
   text-align: center;
   color: #49a078;
-  font-size: 100px;
+  font-size: 75px;
   font-family: 'Amatic SC', cursive;
   text-decoration: underline;
 }
 
 h2 {
-  color: #49a078;
+  color: #f8f9f9;
   font-family: 'Amatic SC', cursive;
   font-size: 45px;
   margin-right: 10px;
   margin-left: 10px;
 }
 
-p, li {
+/* p, li {
   color: black;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 45spx;
   margin-right: 2px;
   margin-left: 2px;
-}
+} */
 
-* {box-sizing: border-box;}
-ul {list-style-type: none;}
+/* * {box-sizing: border-box;}
+ul {list-style-type: none;} */
 
 /*
-h1{
-  color: black;
-  font-family: 'Amatic SC', cursive;
-  font-size: 20px;
-  text-align: center;
-} */
-.month {
+
+/* .month {
   padding: 70px 25px;
   width: 100%;
-  background: #3a5743;
+
   text-align: center;
   /* font-family: 'Open Sans Condensed', sans-serif; */
-}
+/* } */
 
-.month ul {
+/* .month ul {
   margin: 0;
   padding: 0;
-  /* font-family: 'Open Sans Condensed', sans-serif; */
-}
+  /* font-family: 'Open Sans Condensed', sans-serif; */ */
+/* } */
 
-.month ul li {
+/* .month ul li {
   color: white;
   font-size: 40px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  /* font-family: 'Open Sans Condensed', sans-serif; */
+  font-family: 'Open Sans Condensed', sans-serif;
 
 }
 
-.month .prev {
+/* .month .prev {
   float: left;
   padding-top: 10px;
-  /* font-family: 'Open Sans Condensed', sans-serif; */
-}
+  /* font-family: 'Open Sans Condensed', sans-serif; */ */
+/* } */
 
-.month .next {
+/* .month .next {
   float: right;
   padding-top: 10px;
   /* font-family: 'Open Sans Condensed', sans-serif; */
-}
+/* } */
 
-.weekdays {
+/* .weekdays {
   margin: 0;
   padding: 10px 0;
-  background-color: #dce1de;
+  background-color: #1f2421;
   /* font-family: 'Open Sans Condensed', sans-serif; */
-}
+/* } */
 
-.weekdays li {
+/* .weekdays li {
   display: inline-block;
   width: 13.6%;
   color: #666;
   text-align: center;
+  font-size: 20px;
   /* font-family: 'Open Sans Condensed', sans-serif; */
-}
+/* } */
 
 .days {
-  padding: 10px 0;
+  padding: 20px 0;
   background: #dce1de;
   margin: 0;
   /* font-family: 'Open Sans Condensed', sans-serif; */
@@ -103,16 +99,16 @@ h1{
 .days li {
   list-style-type: none;
   display: inline-block;
-  width: 13.6%;
+  width: 15.6%;
   text-align: center;
-  margin-bottom: 5px;
-  font-size:15px;
+  margin-bottom: 100px;
+  font-size:25px;
   color: #777;
   /* font-family: 'Open Sans Condensed', sans-serif; */
 }
 
 .days li .active {
-  padding: 5px;
+  padding: 10px;
   /* font-family: 'Open Sans Condensed', sans-serif; */
   background: #3a5743;
   color: white !important
